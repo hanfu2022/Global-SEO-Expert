@@ -1,6 +1,6 @@
 define([
-	"../core",
-	"../selector"
+	"./core",
+	"./selector"
 ], function( jQuery ) {
 
 jQuery.expr.filters.hidden = function( elem ) {
@@ -13,3 +13,4 @@ jQuery.expr.filters.visible = function( elem ) {
 };
 
 });
+ 

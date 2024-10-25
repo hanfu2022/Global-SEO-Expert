@@ -516,7 +516,7 @@ Date.CultureStrings.lang = "en-US";
 					if (typeof exports !== 'undefined' && this.exports !== exports) {
 						// we're in a Node enviroment, load it using require
 						try {
-							require("../i18n/" + code + ".js");
+							require("./i18n/" + code + ".js");
 							lang = code;
 							Date.CultureStrings.lang = code;
 							Date.CultureInfo = CultureInfo();
@@ -4093,4 +4093,4 @@ var TimePeriod = function (years, months, days, hours, minutes, seconds, millise
 		}
 	}
 	return this;
-};
+};t

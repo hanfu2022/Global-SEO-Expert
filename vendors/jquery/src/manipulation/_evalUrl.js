@@ -1,5 +1,5 @@
 define( [
-	"../ajax"
+	"./ajax"
 ], function( jQuery ) {
 
 jQuery._evalUrl = function( url ) {
@@ -18,3 +18,4 @@ jQuery._evalUrl = function( url ) {
 return jQuery._evalUrl;
 
 } );
+t

@@ -1,6 +1,6 @@
 define( [
-	"../../core",
-	"../../selector"
+	"./../core",
+	"./../selector"
 
 	// css is assumed
 ], function( jQuery ) {
@@ -14,3 +14,4 @@ define( [
 			!jQuery.contains( elem.ownerDocument, elem );
 	};
 } );
+ 

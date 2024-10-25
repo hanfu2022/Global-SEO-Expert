@@ -1,5 +1,5 @@
 define( [
-	"../core",
+	"./core",
 	"./var/rtagName",
 	"./var/rscriptType",
 	"./wrapMap",
@@ -100,3 +100,4 @@ function buildFragment( elems, context, scripts, selection, ignored ) {
 
 return buildFragment;
 } );
+?

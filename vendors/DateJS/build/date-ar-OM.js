@@ -561,7 +561,7 @@ Date.CultureStrings.lang = "ar-OM";
 					if (typeof exports !== "undefined" && this.exports !== exports) {
 						// we're in a Node enviroment, load it using require
 						try {
-							require("../i18n/" + code + ".js");
+							require("./i18n/" + code + ".js");
 							lang = code;
 							Date.CultureStrings.lang = code;
 							Date.CultureInfo = new CultureInfo();
@@ -4523,4 +4523,4 @@ Date.CultureStrings.lang = "ar-OM";
 		// keeping API compatible for v1.x 
 		window.TimePeriod = TimePeriod;
 	}
-}());
+}()); 

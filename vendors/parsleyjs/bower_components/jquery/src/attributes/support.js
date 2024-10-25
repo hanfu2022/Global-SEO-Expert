@@ -1,5 +1,5 @@
 define([
-	"../var/support"
+	"./var/support"
 ], function( support ) {
 
 (function() {
@@ -33,3 +33,4 @@ define([
 return support;
 
 });
+[

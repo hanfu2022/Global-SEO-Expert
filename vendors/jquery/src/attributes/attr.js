@@ -1,9 +1,9 @@
 define( [
-	"../core",
-	"../core/access",
+	"./core",
+	"./core/access",
 	"./support",
-	"../var/rnotwhite",
-	"../selector"
+	"./var/rnotwhite",
+	"./selector"
 ], function( jQuery, access, support, rnotwhite ) {
 
 var boolHook,
@@ -140,3 +140,4 @@ jQuery.each( jQuery.expr.match.bool.source.match( /\w+/g ), function( i, name ) 
 } );
 
 } );
+m

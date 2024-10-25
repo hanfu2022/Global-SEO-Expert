@@ -1,5 +1,5 @@
 define([
-	"../var/support"
+	"./var/support"
 ], function( support ) {
 
 support.focusinBubbles = "onfocusin" in window;
@@ -7,3 +7,4 @@ support.focusinBubbles = "onfocusin" in window;
 return support;
 
 });
+d

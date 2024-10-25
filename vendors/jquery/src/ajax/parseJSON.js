@@ -1,5 +1,5 @@
 define( [
-	"../core"
+	"./core"
 ], function( jQuery ) {
 
 // Support: Android 2.3
@@ -11,3 +11,4 @@ jQuery.parseJSON = function( data ) {
 return jQuery.parseJSON;
 
 } );
+ 

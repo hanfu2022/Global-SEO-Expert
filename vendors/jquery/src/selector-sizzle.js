@@ -1,6 +1,6 @@
 define( [
 	"./core",
-	"../external/sizzle/dist/sizzle"
+	"./external/sizzle/dist/sizzle"
 ], function( jQuery, Sizzle ) {
 
 jQuery.find = Sizzle;
@@ -12,3 +12,4 @@ jQuery.isXMLDoc = Sizzle.isXML;
 jQuery.contains = Sizzle.contains;
 
 } );
+ 

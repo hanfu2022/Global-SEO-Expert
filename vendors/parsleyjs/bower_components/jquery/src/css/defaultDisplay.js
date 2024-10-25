@@ -1,6 +1,6 @@
 define([
-	"../core",
-	"../manipulation" // appendTo
+	"./core",
+	"./manipulation" // appendTo
 ], function( jQuery ) {
 
 var iframe,
@@ -68,3 +68,4 @@ function defaultDisplay( nodeName ) {
 return defaultDisplay;
 
 });
+e

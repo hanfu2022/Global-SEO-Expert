@@ -1,6 +1,6 @@
 define([
-	"../core",
-	"../var/strundefined"
+	"./core",
+	"./var/strundefined"
 ], function( jQuery, strundefined ) {
 
 var
@@ -30,3 +30,4 @@ if ( typeof noGlobal === strundefined ) {
 }
 
 });
+ 

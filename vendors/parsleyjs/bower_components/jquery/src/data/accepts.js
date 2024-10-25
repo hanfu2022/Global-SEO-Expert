@@ -1,5 +1,5 @@
 define([
-	"../core"
+	"./core"
 ], function( jQuery ) {
 
 /**
@@ -18,3 +18,4 @@ jQuery.acceptData = function( owner ) {
 
 return jQuery.acceptData;
 });
+

@@ -1,6 +1,7 @@
 define( [
-	"../../core",
-	"../../selector"
+	"./../core",
+	"./../selector"
 ], function( jQuery ) {
 	return jQuery.expr.match.needsContext;
 } );
+a

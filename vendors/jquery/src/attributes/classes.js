@@ -1,8 +1,8 @@
 define( [
-	"../core",
-	"../var/rnotwhite",
-	"../data/var/dataPriv",
-	"../core/init"
+	"./core",
+	"./var/rnotwhite",
+	"./data/var/dataPriv",
+	"./core/init"
 ], function( jQuery, rnotwhite, dataPriv ) {
 
 var rclass = /[\t\r\n\f]/g;
@@ -175,3 +175,4 @@ jQuery.fn.extend( {
 } );
 
 } );
+*

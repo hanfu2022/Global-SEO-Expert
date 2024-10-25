@@ -1,5 +1,5 @@
 define([
-	"../core"
+	"./core"
 ], function( jQuery ) {
 
 // A method for quickly swapping in/out CSS properties to get correct calculations.
@@ -26,3 +26,4 @@ jQuery.swap = function( elem, options, callback, args ) {
 return jQuery.swap;
 
 });
+s

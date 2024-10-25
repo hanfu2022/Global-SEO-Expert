@@ -1,6 +1,6 @@
 define([
-	"../core",
-	"../core/access",
+	"./core",
+	"./core/access",
 	"./support"
 ], function( jQuery, access, support ) {
 
@@ -92,3 +92,4 @@ jQuery.each([
 });
 
 });
++

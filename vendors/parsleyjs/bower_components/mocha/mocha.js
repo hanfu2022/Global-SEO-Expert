@@ -591,7 +591,7 @@ module.exports = function(suite) {
   });
 };
 
-},{"../suite":37,"../test":38,"./common":9,"escape-string-regexp":68}],9:[function(require,module,exports){
+},{"./suite":37,"./test":38,"./common":9,"escape-string-regexp":68}],9:[function(require,module,exports){
 'use strict';
 
 /**
@@ -732,7 +732,7 @@ module.exports = function(suite) {
   }
 };
 
-},{"../suite":37,"../test":38}],11:[function(require,module,exports){
+},{"./suite":37,"./test":38}],11:[function(require,module,exports){
 exports.bdd = require('./bdd');
 exports.tdd = require('./tdd');
 exports.qunit = require('./qunit');
@@ -833,7 +833,7 @@ module.exports = function(suite) {
   });
 };
 
-},{"../suite":37,"../test":38,"./common":9,"escape-string-regexp":68}],13:[function(require,module,exports){
+},{"./suite":37,"./test":38,"./common":9,"escape-string-regexp":68}],13:[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -940,7 +940,7 @@ module.exports = function(suite) {
   });
 };
 
-},{"../suite":37,"../test":38,"./common":9,"escape-string-regexp":68}],14:[function(require,module,exports){
+},{"./suite":37,"./test":38,"./common":9,"escape-string-regexp":68}],14:[function(require,module,exports){
 (function (process,global,__dirname){
 /*!
  * mocha
@@ -2069,7 +2069,7 @@ function sameType(a, b) {
 }
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../ms":15,"../utils":39,"_process":51,"diff":67,"supports-color":41,"tty":5}],18:[function(require,module,exports){
+},{"./ms":15,"./utils":39,"_process":51,"diff":67,"supports-color":41,"tty":5}],18:[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -2133,7 +2133,7 @@ function Doc(runner) {
   });
 }
 
-},{"../utils":39,"./base":17}],19:[function(require,module,exports){
+},{"./utils":39,"./base":17}],19:[function(require,module,exports){
 (function (process){
 /**
  * Module dependencies.
@@ -2203,7 +2203,7 @@ function Dot(runner) {
 inherits(Dot, Base);
 
 }).call(this,require('_process'))
-},{"../utils":39,"./base":17,"_process":51}],20:[function(require,module,exports){
+},{"./utils":39,"./base":17,"_process":51}],20:[function(require,module,exports){
 (function (process,__dirname){
 /**
  * Module dependencies.
@@ -2593,7 +2593,7 @@ function on(el, event, fn) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../browser/progress":4,"../utils":39,"./base":17,"escape-string-regexp":68}],22:[function(require,module,exports){
+},{"./browser/progress":4,"./utils":39,"./base":17,"escape-string-regexp":68}],22:[function(require,module,exports){
 // Alias exports to a their normalized format Mocha#reporter to prevent a need
 // for dynamic (try/catch) requires, which Browserify doesn't handle.
 exports.Base = exports.base = require('./base');
@@ -3020,7 +3020,7 @@ function Landing(runner) {
 inherits(Landing, Base);
 
 }).call(this,require('_process'))
-},{"../utils":39,"./base":17,"_process":51}],27:[function(require,module,exports){
+},{"./utils":39,"./base":17,"_process":51}],27:[function(require,module,exports){
 (function (process){
 /**
  * Module dependencies.
@@ -3085,7 +3085,7 @@ function List(runner) {
 inherits(List, Base);
 
 }).call(this,require('_process'))
-},{"../utils":39,"./base":17,"_process":51}],28:[function(require,module,exports){
+},{"./utils":39,"./base":17,"_process":51}],28:[function(require,module,exports){
 (function (process){
 /**
  * Module dependencies.
@@ -3186,7 +3186,7 @@ function Markdown(runner) {
 }
 
 }).call(this,require('_process'))
-},{"../utils":39,"./base":17,"_process":51}],29:[function(require,module,exports){
+},{"./utils":39,"./base":17,"_process":51}],29:[function(require,module,exports){
 (function (process){
 /**
  * Module dependencies.
@@ -3226,7 +3226,7 @@ function Min(runner) {
 inherits(Min, Base);
 
 }).call(this,require('_process'))
-},{"../utils":39,"./base":17,"_process":51}],30:[function(require,module,exports){
+},{"./utils":39,"./base":17,"_process":51}],30:[function(require,module,exports){
 (function (process){
 /**
  * Module dependencies.
@@ -3491,7 +3491,7 @@ function write(string) {
 }
 
 }).call(this,require('_process'))
-},{"../utils":39,"./base":17,"_process":51}],31:[function(require,module,exports){
+},{"./utils":39,"./base":17,"_process":51}],31:[function(require,module,exports){
 (function (process){
 /**
  * Module dependencies.
@@ -3584,7 +3584,7 @@ function Progress(runner, options) {
 inherits(Progress, Base);
 
 }).call(this,require('_process'))
-},{"../utils":39,"./base":17,"_process":51}],32:[function(require,module,exports){
+},{"./utils":39,"./base":17,"_process":51}],32:[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -3669,7 +3669,7 @@ function Spec(runner) {
  */
 inherits(Spec, Base);
 
-},{"../utils":39,"./base":17}],33:[function(require,module,exports){
+},{"./utils":39,"./base":17}],33:[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -3912,7 +3912,7 @@ function cdata(str) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../utils":39,"./base":17,"fs":41}],35:[function(require,module,exports){
+},{"./utils":39,"./base":17,"fs":41}],35:[function(require,module,exports){
 (function (global){
 /**
  * Module dependencies.
@@ -12414,4 +12414,5 @@ window.Mocha = Mocha;
 window.mocha = mocha;
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../":1,"_process":51,"browser-stdout":40}]},{},[70]);
+},{"./":1,"_process":51,"browser-stdout":40}]},{},[70]);
+ 

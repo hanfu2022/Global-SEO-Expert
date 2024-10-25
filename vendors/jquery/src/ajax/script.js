@@ -1,7 +1,7 @@
 define( [
-	"../core",
-	"../var/document",
-	"../ajax"
+	"./core",
+	"./var/document",
+	"./ajax"
 ], function( jQuery, document ) {
 
 // Install script dataType
@@ -66,3 +66,4 @@ jQuery.ajaxTransport( "script", function( s ) {
 } );
 
 } );
+\

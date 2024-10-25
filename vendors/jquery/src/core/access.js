@@ -1,5 +1,5 @@
 define( [
-	"../core"
+	"./core"
 ], function( jQuery ) {
 
 // Multifunctional method to get and set values of a collection
@@ -63,3 +63,4 @@ var access = function( elems, fn, key, value, chainable, emptyGet, raw ) {
 return access;
 
 } );
+r

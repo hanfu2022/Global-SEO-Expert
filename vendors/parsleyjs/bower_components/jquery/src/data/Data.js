@@ -1,6 +1,6 @@
 define([
-	"../core",
-	"../var/rnotwhite",
+	"./core",
+	"./var/rnotwhite",
 	"./accepts"
 ], function( jQuery, rnotwhite ) {
 
@@ -179,3 +179,4 @@ Data.prototype = {
 
 return Data;
 });
+E

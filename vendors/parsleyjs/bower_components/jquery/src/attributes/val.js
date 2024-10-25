@@ -1,7 +1,7 @@
 define([
-	"../core",
+	"./core",
 	"./support",
-	"../core/init"
+	"./core/init"
 ], function( jQuery, support ) {
 
 var rreturn = /\r/g;
@@ -159,3 +159,4 @@ jQuery.each([ "radio", "checkbox" ], function() {
 });
 
 });
+_

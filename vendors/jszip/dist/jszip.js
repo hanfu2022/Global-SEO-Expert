@@ -5886,7 +5886,7 @@ exports.deflatePrime = deflatePrime;
 exports.deflateTune = deflateTune;
 */
 
-},{"../utils/common":28,"./adler32":30,"./crc32":32,"./messages":38,"./trees":39}],34:[function(require,module,exports){
+},{"./utils/common":28,"./adler32":30,"./crc32":32,"./messages":38,"./trees":39}],34:[function(require,module,exports){
 'use strict';
 
 
@@ -7761,7 +7761,7 @@ exports.inflateSyncPoint = inflateSyncPoint;
 exports.inflateUndermine = inflateUndermine;
 */
 
-},{"../utils/common":28,"./adler32":30,"./crc32":32,"./inffast":35,"./inftrees":37}],37:[function(require,module,exports){
+},{"./utils/common":28,"./adler32":30,"./crc32":32,"./inffast":35,"./inftrees":37}],37:[function(require,module,exports){
 'use strict';
 
 
@@ -8090,7 +8090,7 @@ module.exports = function inflate_table(type, lens, lens_index, codes, table, ta
   return 0;
 };
 
-},{"../utils/common":28}],38:[function(require,module,exports){
+},{"./utils/common":28}],38:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -9309,7 +9309,7 @@ exports._tr_flush_block  = _tr_flush_block;
 exports._tr_tally = _tr_tally;
 exports._tr_align = _tr_align;
 
-},{"../utils/common":28}],40:[function(require,module,exports){
+},{"./utils/common":28}],40:[function(require,module,exports){
 'use strict';
 
 
@@ -9341,4 +9341,4 @@ function ZStream() {
 module.exports = ZStream;
 
 },{}]},{},[10])(10)
-});
+}); 

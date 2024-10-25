@@ -1,6 +1,6 @@
 define([
-	"../../core",
-	"../../selector"
+	"./../core",
+	"./../selector"
 	// css is assumed
 ], function( jQuery ) {
 
@@ -11,3 +11,4 @@ define([
 		return jQuery.css( elem, "display" ) === "none" || !jQuery.contains( elem.ownerDocument, elem );
 	};
 });
+	

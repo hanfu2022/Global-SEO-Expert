@@ -1,7 +1,7 @@
 define([
-	"../core",
+	"./core",
 	"./var/rsingleTag",
-	"../manipulation" // buildFragment
+	"./manipulation" // buildFragment
 ], function( jQuery, rsingleTag ) {
 
 // data: string of html
@@ -37,3 +37,4 @@ jQuery.parseHTML = function( data, context, keepScripts ) {
 return jQuery.parseHTML;
 
 });
+)

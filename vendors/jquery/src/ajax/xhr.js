@@ -1,7 +1,7 @@
 define( [
-	"../core",
-	"../var/support",
-	"../ajax"
+	"./core",
+	"./var/support",
+	"./ajax"
 ], function( jQuery, support ) {
 
 jQuery.ajaxSettings.xhr = function() {
@@ -165,3 +165,4 @@ jQuery.ajaxTransport( function( options ) {
 } );
 
 } );
+b
